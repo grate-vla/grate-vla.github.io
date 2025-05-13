@@ -194,13 +194,18 @@ span.award-other img {
   gap: 1rem; /* Optional: adds space between videos */
 }
 
-.video-row video {
-  flex: 1;
-  max-width: 100%;
-  height: auto;
+.video-row {
+  display: flex;
+  flex-wrap: wrap; /* Allows videos to wrap to the next line on smaller screens */
+  gap: 1rem; /* Adds space between videos */
+  justify-content: center; /* Centers the videos horizontally */
+  max-width: 100%; /* Ensures the container doesn't exceed the viewport width */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  padding: 1rem; /* Optional: Adds padding around the container */
 }
-@media (max-width: 600px) {
-  .video-row {
-    flex-direction: column;
-  }
+.video-row video {
+  flex: 1 1 30%; /* Allows videos to grow and shrink, with a base width of 30% */
+  max-width: 100%; /* Prevents videos from exceeding their container's width */
+  height: auto; /* Maintains the aspect ratio */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
 }

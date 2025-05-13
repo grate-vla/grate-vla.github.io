@@ -28,8 +28,7 @@ deployment of robots from controlled lab settings to the real-world (lab-to-real
 to bring together the robot manipulation research community to address these fundamental issues in
 three research directions. This challenge seeks to:
 - Promote research on predictive redteaming to enable stable fine-tuning of VLA policies,
-through the: (i) identification of interesting failure scenarios, (ii) targeted collection of fine-
-tuning data, and (iii) optimization of data-mix ratios during fine-tuning to avoid catastrophic
+through the: (i) identification of interesting failure scenarios, (ii) targeted collection of fine-tuning data, and (iii) optimization of data-mix ratios during fine-tuning to avoid catastrophic
 forgetting. Fine-tuning VLA policies with supervision on failure cases can improve their
 generalization beyond the training distribution.
 - Motivate research on grounding VLA policies in the real-world at runtime with world
@@ -50,8 +49,10 @@ and promote research on safety verification of VLA policies using formal methods
   </video>
 </div>
 
-The Generalizable Real-World Robot Manipulation Policies Across Tasks and Environ-
-ments Challenge (GRATE-VLA) invites researchers to develop generalist robot policies that work
+
+
+
+The Generalizable Real-World Robot Manipulation Policies Across Tasks and Environments Challenge (GRATE-VLA) invites researchers to develop generalist robot policies that work
 in real-world manipulation problems, and by design, requires these policies to be generalizable
 and robust to the uncontrolled conditions in the real-world. Specifically, we evaluate real-world
 generalization across:
@@ -69,7 +70,7 @@ set up by the organizers of this challenge. The results for each track of the ch
 on a leaderboard. Top-performing participants in the first stage advance to the second stage of the
 challenge.
 
-The second stage of the challenge will be conducted entirely in-person at the workshop.1 Participants
+The second stage of the challenge will be conducted entirely in-person at the workshop. Participants
 in the second stage are required to submit their policy for evaluation in real-time at the workshop.
 The top participants in this round will give a brief talk on architecture design choices and key insights
 at the workshop.
