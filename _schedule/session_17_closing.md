@@ -9,5 +9,5 @@ sequence_id: 17
 wide_title: Closing Remarks
 
 # Time of the event
-time: 16:40 - 16:50
+time: 16:20 - 16:30
 ---

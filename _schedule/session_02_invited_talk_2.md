@@ -3,11 +3,11 @@
 sequence_id: 2
 
 # Speaker name
-speaker: Yuzhe Yang
+speaker: Russ Tedrake
 
 # Title of the event
-title: "From Clinics to Homes: Assessing Disease and Health with Everyday Devices"
+title: "Robustness in Robot Manipulation"
 
 # Time of the event
-time: 09:40 - 10:10
+time: 10:05 - 10:35
 ---

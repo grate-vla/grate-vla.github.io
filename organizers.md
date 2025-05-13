@@ -6,7 +6,7 @@ permalink: /organizers/
 
 ### Scientific Advisory Board
 &nbsp;
-<div class="grid">
+<!-- <div class="grid">
     <div class="gridorg-item">
         <figure>
         <img src="/assets/img/advisory_board/lei_xing.jpg" width="200"/>
@@ -91,13 +91,13 @@ permalink: /organizers/
         <figcaption><b><a href="https://biodesign.seas.harvard.edu/conor-walsh">Conor Walsh</a></b><br>Harvard University</figcaption>
         </figure>
     </div>
-</div>
+</div> -->
 &nbsp;
 
 ### Program Committee
 &nbsp;
 
-<div class='grid'>
+<!-- <div class='grid'>
     <div class="gridcom-item">
         <div><p><span>&#8226;&nbsp;</span><a href="https://zipingxu.github.io/">Ziping Xu</a> (Harvard)</p></div>
         <div><p><span>&#8226;&nbsp;</span><a href="https://schmidtsciencefellows.org/fellow/asim-gazi/">Asim Gazi</a> (Harvard)</p></div>
@@ -121,4 +121,4 @@ permalink: /organizers/
         <div><p><span>&#8226;&nbsp;</span><a href="https://scholar.google.com/citations?user=rHHZrQEAAAAJ&hl=zh-CN">Bo Xiao</a> (Imperial)</p></div>
         <div><p><span>&#8226;&nbsp;</span><a href="https://scholar.google.com/citations?user=WFxAYYQAAAAJ&hl=en">Lei Lu</a> (KCL)</p></div>
     </div>
-</div>
+</div> -->

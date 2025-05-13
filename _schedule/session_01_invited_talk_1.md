@@ -3,11 +3,11 @@
 sequence_id: 1
 
 # Speaker name
-speaker: Brokoslaw Laschowski
+speaker: Shuran Song
 
 # Title of the event
-title: "Robotic Leg Control: From Artificial Intelligence to Brain-Machine Interfaces"
+title: "Targeted Data Collection for Effective VLA Fine-tuning"
 
 # Time of the event
-time: 09:10 - 09:40
+time: 09:35 - 10:05
 ---

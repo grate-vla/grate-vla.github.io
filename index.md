@@ -3,90 +3,128 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 permalink: /
-title: "1st Workshop on Wearable Intelligence for Healthcare Robotics (WIHR): from Brain Activity to Body Movement"
+title: "GRATE-VLA Challenge: Safe Real-World Generalization for Generalist Robot Manipulation Policies"
 list_title: Home
 layout: home
 ---
-<p style="text-align: center;"><font size="5"><a href="https://2024.ieee-icra.org/">2024 IEEE International Conference on Robotics and Automation in PACIFICO Yokohama, Japan</a>
+<p style="text-align: center;"><font size="3"><em>Achieving Generalization via Predictive Redteaming and World Model Grounding</em>
 </font></p>
-<p style="text-align: center;"><font size="5">May 17th, 2024. Location: <a href="https://maps.app.goo.gl/sRLmoKcE8mKDdGEs9">North G301</a></font></p>
+<p style="text-align: center;"><font size="5"><a href="https://2024.ieee-icra.org/">2025 Conference on Robot Learning in Seoul, South Korea</a>
+</font></p>
+<p style="text-align: center;"><font size="5">September 30, 2025. Location: <a href="https://maps.app.goo.gl/dHWrPx9CABdTPmyi8">COEX Convention & Exhibition Center</a></font></p>
 <!-- <p style="text-align: center;"><font size="5">Location: Sequoia 1</font></p> -->
 <p style="text-align: center;"><font size="4">
-<!-- [<a href="">Youtube</a>] -->[<a href="https://discord.gg/yqjTtBmUJC">Discord</a>] [<a href="https://openreview.net/group?id=IEEE.org/2024/ICRA/Workshop/WIHR">OpenReview</a>]</font></p>
+<!-- [<a href="">Youtube</a>] -->[<a href="">Discord</a>] [<a href="">OpenReview</a>]</font></p>
 <!-- <p style="text-align: center;"><font size="4">Recording available at: <a href="">Youtube</a></font></p> -->
 
-The integration of artificial intelligence, wearable technologies, and robotics signifies a paradigm shift in healthcare, ushering in an era of personalized and pervasive digital health solutions. This pivotal intersection seamlessly melds real-time data acquisition, cutting-edge analytics, and precision-driven robotic interventions, together reshaping the very fabric of patient care. A spectrum of sensing modalities, from intricate brain-machine interfaces to dynamic muscle-machine interactions and advanced vision-based signals, offers a holistic understanding of the physiological and biomechanical intricacies inherent to the human body. These profound insights not only demystify cognitive processes and potential neurological anomalies but also set the stage for proactive interventions, particularly in the realms of rehabilitation/assistive, social, as well as surgical robotics. This workshop endeavors to dissect the multifaceted nature of this symbiotic integration, illuminating challenges, innovations, and the vast potential of a healthcare domain enriched by wearables and robotics. Our objective is to bridge the chasm between AI insights, wearable intelligence, and robotic precision, envisioning a healthcare future that’s seamlessly attuned to individual needs.
+Inspired by the significant potential offered by a single policy for many robot ma-
+nipulation tasks, research on vision-language-action (VLA) models as generalist robot policies has
+exploded over the last few years [ 1, 2, 3, 4 , 5 , 6], achieving remarkable performance across a wide
+range of robot manipulation tasks described in natural-language. Despite their notable performance in
+nominal conditions, VLA policies have been shown to be notably fragile, showing weak robustness to
+distractors (e.g., objects, lighting, and backgrounds) [ 7] and poor generalization to robot embodiments
+and some manipulation tasks [8, 9].
+However, robustness and generalization to real-world conditions remain essential to moving the
+deployment of robots from controlled lab settings to the real-world (lab-to-real). This challenge aims
+to bring together the robot manipulation research community to address these fundamental issues in
+three research directions. This challenge seeks to:
+- Promote research on predictive redteaming to enable stable fine-tuning of VLA policies,
+through the: (i) identification of interesting failure scenarios, (ii) targeted collection of fine-
+tuning data, and (iii) optimization of data-mix ratios during fine-tuning to avoid catastrophic
+forgetting. Fine-tuning VLA policies with supervision on failure cases can improve their
+generalization beyond the training distribution.
+- Motivate research on grounding VLA policies in the real-world at runtime with world
+models. Effective grounding can evaluate and optimize VLA action proposals, mitigating
+hallucinations for robustness to distractors.
+- Encourage research on runtime performance prediction of VLA policies for safety guarantees
+and promote research on safety verification of VLA policies using formal methods.
 
 ![](assets/img/banner.jpg)
 
-Driven by these observations and reflections, our workshop stands at the forefront of healthcare innovation. It will delve into several interconnected domains, each providing distinct perspectives and strategies to revolutionize the field of healthcare robotics.
+The Generalizable Real-World Robot Manipulation Policies Across Tasks and Environ-
+ments Challenge (GRATE-VLA) invites researchers to develop generalist robot policies that work
+in real-world manipulation problems, and by design, requires these policies to be generalizable
+and robust to the uncontrolled conditions in the real-world. Specifically, we evaluate real-world
+generalization across:
+1. Robot embodiments, e.g., Franka, WidowX, X-Arm, Kinova, etc.
+2. Task skills, e.g., picking, sliding, and pushing.
+3. Task objects, e.g., fruits, mugs, and pans.
+4. Environments with distractors and varied scene conditions, e.g., lighting, texture, mass, etc.
+Each participant is required to submit a report detailing the architecture of their policy, training data,
+implementation, training costs, etc, as specified in the challenge rules. The challenge unequivocally
+encourages participants to use open-source datasets, whenever possible. Participants are encouraged
+to release their training datasets as part of their submission.
+The challenge consists of two stages. In the first stage, participants train and submit their VLA
+policies for evaluation in simulation and hardware on a challenge evaluation platform, e.g., EvalAI,
+set up by the organizers of this challenge. The results for each track of the challenge will be published
+on a leaderboard. Top-performing participants in the first stage advance to the second stage of the
+challenge.
 
-We aim to discuss questions including, but not limited to:
+The second stage of the challenge will be conducted entirely in-person at the workshop.1 Participants
+in the second stage are required to submit their policy for evaluation in real-time at the workshop.
+The top participants in this round will give a brief talk on architecture design choices and key insights
+at the workshop.
 
-- **Paradigms**: What new paradigms are being explored to develop innovative wearable solutions in healthcare robotics?
-- **Algorithms**: What recent breakthroughs in AI have enhanced the capabilities of wearable intelligence in healthcare?
-- **Data-Driven Approaches**: What are the most effective practices for learning from real-world and simulated data in healthcare robotics?
-- **Efficient Learning**: How can we optimize the process of collecting and learning from real-world data in healthcare robotics?
-- **Adaptability**: How can the design of healthcare wearable robotics be evolved to offer greater personalization and adaptability?
-- **Interdisciplinary Integration**: How can cognitive science, neuroscience, and genetics be integrated to advance wearable intelligence and healthcare robotics?
-- **Foundation Models**: What role can foundation models play in supporting wearable intelligence and healthcare robotics?
-- **Human-Robot Interaction**: How can human-robot interaction be enhanced to improve patient comfort and trust in healthcare settings?
-- **Applications**: How can AI and machine learning be leveraged in robotics for predictive healthcare and early diagnosis?
-- **Ethics, Privacy, and Safety**: How can ethical considerations, patient privacy, and safety be prioritized in the development and implementation of wearable intelligence and healthcare robotics?
-- **Future Prospects and Challenges**: What does the future hold for the use of wearable intelligence and robots in healthcare, and what are the associated challenges?
+The winners of the challenge in each track will receive suitable awards, acknowledging their achieve-
+ments. Winners in the overall track will receive the following prizes:
+• First Place: $1000
+• Second Place: $750
+• Third Place: $500
+All top-ranked participants will receive API credits for use with world models, and VLMs from spon-
+sors. The challenge will recognize the best student (academic) submissions, limited to submissions
+unaffiliated with any industry partner. In addition, the challenge will present awards to submissions
+that innovate on the three research directions of this challenge.
 
+More details about the challenge will be presented at a later date.
 
 &nbsp;
 &nbsp;
-
 
 ### Call for papers
 
-We invite submissions including but not limited to the following topics:
+The challenge will feature five keynote addresses by leading researchers
+on target data collection for efficient fine-tuning of VLAs, grounding VLAs with world models,
+enforcing safety in VLAs, and designing VLA policies for robustness. Moreover, the workshop will
+feature a panel discussion on the crucial question: “Is data scaling the key to robust, generalizable
+VLA policies?,” where participants will get the opportunity to ask the panelists research-provoking
+questions. We hope these discussion spark useful research collaborations. Lastly, the challenge
+invites researchers to submit papers on their research related to aforementioned research themes of
+this challenge. The challenge will include poster sessions for accepted paper submissions, particularly
+focused on early-stage/on-going research to further provide an opportunity for presenters to share their
+work and receive feedback. The authors of the best paper submissions will be given an opportunity
+for an oral presentation of their work.
 
-- Cutting-edge wearable sensory technologies for healthcare robotics.
-- Principles of human-centered design in healthcare wearable robotics.
-- Integration of the Internet of Things (IoT) in healthcare wearable robotics.
-- Fusion of multi-modal sensing technologies for wearable intelligence and healthcare robots.
-- AI-based analysis of human movement.
-- AI-based assessment of cognitive states.
-- AI-based prediction of human intentions.
-- AI-driven approaches in human-robot interaction.
-- Personalized adaptive strategies for robotic interventions and assistance.
-- Personalized monitoring of wearable devices.
-- Monitoring system for intelligent cockpit.
-- Tailored adaptive strategies for rehabilitation training.
-- Customized strategies for real-time human-robot interaction.
-- Data-driven learning approaches to address variations in individuals or subpopulations.
-- Adaptive control policies for individual or subpopulation variances.
-- Incorporating cognitive science, neuroscience, and genetics to enhance healthcare robotics.
-- Ethics, privacy, and safety of wearable intelligence and healthcare robotics
-- Emerging AR/VR/MR technologies for wearable intelligence and healthcare robotics
-- LLM-based Agents for wearable intelligence and healthcare robotics
-- Novel datasets and benchmarks for advancing wearable intelligence and healthcare robotics
-- Future and challenges of wearable intelligence for healthcare robotics
-
+This challenge invites all robot manipulation researchers to submit their
+contributions on generalist robot manipulation policies that generalize to the real-world. The challenge
+is designed to be accessible to all researchers, regardless of the researcher’s access to research
+resources, by allowing for the use of open-source training data, and open-source pretrained policies
+for bootstrapping their submissions. In particular, we encourage submissions that:
+1. Provide simple interfaces for policy deployment with interpretable action proposals and
+performance predictions,
+2. Utilize open-source datasets and foundation models for training generalist robot manipula-
+tion policies,
+3. Leverage predictive redteaming for target data collection and fine-tuning,
+4. Harness open-source world models for efficient data scaling and grouding, especially
+centered on failure scenarios.
 
 **Important Dates**
-- **Paper submission open**: 2024/01/01
+- **Paper submission open**: TBD
 
-- **Paper submission deadline**: 2024/04/03 PST
+- **Paper submission deadline**: TBD
 
-- **Notification of acceptance**: 2024/04/07
+- **Notification of acceptance**: TBD
 
-- **Camera ready**: 2024/05/03
+- **Camera ready**: TBD
 
-- **Workshop date**: 2024/05/17
+- **Workshop date**: TBD
 
-- **Submission portal**: [ICRA 2024 Workshop WIHR (OpenReview)](https://openreview.net/group?id=IEEE.org/2024/ICRA/Workshop/WIHR).
+- **Submission portal**: TBD
 
-We expect submissions with 2 - 8 pages for the main content, with no limit on references/appendices. Submissions are suggested to use the [IEEE template](https://ras.papercept.net/conferences/support/support.php). All papers will be peer-reviewed in a double-blind manner. We welcome both unpublished original contributions and recently published relevant works. Accepted papers will be presented in the form of posters, with several papers being selected for spotlight sessions. The <b><font color=red>Best Presentation Award</font></b> and <b><font color=red>Best Poster Award</font></b> will be presented to honor exceptional contributions among the accepted submissions, with a cash prize of <b>300 US dollors</b> for each award.
-
-NEWS: Excellent works are invited to submit an extended version to the special issue on SPJ Cyborg and Bionic Systems: [Emerging Trends in Wearable Technologies, AI, and Robotics for Pervasive Healthcare](https://spj.science.org/page/cbsystems/si/emerging-trends-in-wearable-technologies-ai-and-robotics-for-pervasive-healthcare) 
+We expect submissions with 2 - 8 pages for the main content, with no limit on references/appendices. Submissions are suggested to use the [CoRL template](https://drive.google.com/file/d/1XalwYG542cg2YAHo8STgZKxhAIA8_HSu/view). All papers will be peer-reviewed in a double-blind manner. We welcome both unpublished original contributions and recently published relevant works. Accepted papers will be presented in the form of posters, with several papers being selected for spotlight sessions. The <b><font color=red>Best Presentation Award</font></b> and <b><font color=red>Best Poster Award</font></b> will be presented to honor exceptional contributions among the accepted submissions.
 
 **Contact**
 
-If you have any questions, please contact us at: wearable-intelligence@googlegroups.com.
+If you have any questions, please contact us at: TBD.
 
 &nbsp;
 &nbsp;
@@ -96,65 +134,41 @@ If you have any questions, please contact us at: wearable-intelligence@googlegro
 <div class="grid">
     <div class="grid-item">
         <figure>
-        <img src="assets/img/speakers/zijian_wang.jpg" width="200"/>
-        <figcaption><b><a href="https://scholar.google.com/citations?user=XC8CHRMAAAAJ&hl=en">Zijian Wang</a></b><br>Meta</figcaption>
+        <img src="assets/img/speakers/dhruvshah.jpeg" width="200"/>
+        <figcaption><b><a href="https://robodhruv.github.io/">Dhruv Shah</a></b><br>Google DeepMind & Princeton</figcaption>
         </figure>
     </div>
     <div class="grid-item">
         <figure>
-        <img src="assets/img/speakers/yuzhe_yang.jpg" width="200" /> 
-        <figcaption><b><a href="https://www.mit.edu/~yuzhe/">Yuzhe Yang</a></b><br>MIT</figcaption>
+        <img src="assets/img/speakers/shuransong.jpg" width="200" /> 
+        <figcaption><b><a href="https://shurans.github.io/">Shuran Song</a></b><br>Stanford</figcaption>
         </figure>
     </div>
     <div class="grid-item">
         <figure>
-        <img src="assets/img/speakers/george_mylonas.jpg" width="200" />
-        <figcaption><b><a href="https://www.imperial.ac.uk/people/george.mylonas">George Mylonas</a></b><br>Imperial College London</figcaption>
+        <img src="assets/img/speakers/huihanliu.png" width="200" />
+        <figcaption><b><a href="https://huihanl.github.io/">Huihan Liu</a></b><br>UT Austin</figcaption>
         </figure>
     </div>
     <div class="grid-item">
         <figure>
-        <img src="assets/img/speakers/etienne_burdet.jpg" width="200" />
-        <figcaption><b><a href="https://www.imperial.ac.uk/people/e.burdet">Etienne Burdet</a></b><br>Imperial College London</figcaption>
+        <img src="assets/img/speakers/andreabajcsy.png" width="200" />
+        <figcaption><b><a href="https://www.cs.cmu.edu/~abajcsy/">Andrea Bajcsy</a></b><br>CMU</figcaption>
         </figure>
     </div>
     <div class="grid-item">
         <figure>
-        <img src="assets/img/speakers/jasmin-e-palmer.jpg" width="200" />
-        <figcaption><b><a href="https://profiles.stanford.edu/jasmin-e-palmer">Jasmin E. Palmer
-</a></b><br>Stanford University</figcaption>
+        <img src="assets/img/speakers/sergeylevine.jpeg" width="200" />
+        <figcaption><b><a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine
+</a></b><br>UC Berkeley & PI</figcaption>
         </figure>
     </div>
     <div class="grid-item">
         <figure>
-        <img src="assets/img/speakers/brokoslaw_laschowski.png" width="200" />
-        <figcaption><b><a href="https://kite-uhn.com/scientist/brokoslaw-laschowski">Brokoslaw Laschowski</a></b><br>Toronto Rehabilitation Institute & University of Toronto</figcaption>
+        <img src="assets/img/speakers/russtedrake.jpg" width="200" />
+        <figcaption><b><a href="https://locomotion.csail.mit.edu/russt.html">Russ Tedrake</a></b><br>MIT & TRI</figcaption>
         </figure>
     </div>
-    <div class="grid-item">
-        <figure>
-        <img src="assets/img/speakers/jinsoo_kim.jpg" width="200" />
-        <figcaption><b><a href="https://scholar.google.com/citations?user=4uU8UXAAAAAJ&hl=en">Jinsoo Kim</a></b><br>Seoul National University</figcaption>
-        </figure>
-    </div>
-    <div class="grid-item">
-        <figure>
-        <img src="assets/img/speakers/ruohan_zhang.jpg" width="200" />
-        <figcaption><b><a href="https://ai.stanford.edu/~zharu/">Ruohan Zhang</a></b><br>Stanford University</figcaption>
-        </figure>
-    </div>
-    <!-- <div class="grid-item">
-        <figure>
-        <img src="assets/img/speakers/daniel_yamins.jpg" width="200" />
-        <figcaption><b><a href="https://profiles.stanford.edu/daniel-yamins">Daniel Yamins</a></b><br>Stanford University</figcaption>
-        </figure>
-    </div> -->
-    <!-- <div class="grid-item">
-        <figure>
-        <img src="assets/img/speakers/guoyuan_wu.jpg" width="200" />
-        <figcaption><b><a href="https://profiles.ucr.edu/app/home/profile/guoyuanw">Guoyuan Wu</a></b><br>UC Riverside</figcaption>
-        </figure>
-    </div> -->
 </div>
 
 &nbsp;
@@ -167,69 +181,63 @@ If you have any questions, please contact us at: wearable-intelligence@googlegro
 <div class="grid">
     <div class="gridorg-item">
         <figure>
+        <img src="assets/img/organizers/olashorinwa.jpg" width="200" /> 
+        <figcaption><b><a href="">Ola Shorinwa</a></b><br>Princeton University</figcaption>
+        </figure>
+    </div>
+    <div class="gridorg-item">
+        <figure>
         <img src="assets/img/organizers/jiankai_sun.png" width="200"/>
         <figcaption><b><a href="https://web.stanford.edu/~jksun">Jiankai Sun</a></b><br>Stanford University</figcaption>
         </figure>
     </div>
     <div class="gridorg-item">
         <figure>
-        <img src="assets/img/organizers/xiao_gu.jpg" width="200" /> 
-        <figcaption><b><a href="https://xiaogu.site/">Xiao Gu</a></b><br>University of Oxford</figcaption>
+        <img src="assets/img/organizers/haibaoyu.jpg" width="200" />
+        <figcaption><b><a href="https://scholar.google.com/citations?user=JW4F5HoAAAAJ&hl=en">Haibao Yu</a></b><br>University of Hong Kong</figcaption>
         </figure>
     </div>
     <div class="gridorg-item">
         <figure>
-        <img src="assets/img/organizers/yiyue_luo.jpg" width="200" />
-        <figcaption><b><a href="https://yyueluo.com/">Yiyue Luo</a></b><br>MIT</figcaption>
+        <img src="assets/img/organizers/yanxu.png" width="200" />
+        <figcaption><b><a href="https://decayale.github.io/">Yan Xu</a></b><br>University of Michigan</figcaption>
         </figure>
     </div>
     <div class="gridorg-item">
         <figure>
-        <img src="assets/img/organizers/jianing_qiu.jpeg" width="200" />
-        <figcaption><b><a href="https://scholar.google.com/citations?user=ETgWwQoAAAAJ&hl=en&oi=ao">Jianing Qiu</a></b><br>CUHK</figcaption>
+        <img src="assets/img/organizers/paulzhou.png" width="200" />
+        <figcaption><b><a href="https://zhouzypaul.github.io/">Paul Zhou</a></b><br>UC Berkeley</figcaption>
         </figure>
     </div>
     <div class="gridorg-item">
         <figure>
-        <img src="assets/img/organizers/shuo_jiang.jpg" width="200" />
-        <figcaption><b><a href="https://scholar.google.com/citations?user=zcpunN8AAAAJ&hl=en">Shuo Jiang</a></b><br>Tongji University</figcaption>
+        <img src="assets/img/organizers/timothychen.jpg" width="200" />
+        <figcaption><b><a href="https://msl.stanford.edu/people/timchen">Timothy Chen</a></b><br>Stanford University</figcaption>
         </figure>
     </div>
     <div class="gridorg-item">
         <figure>
-        <img src="assets/img/organizers/wu_yuan.png" width="200" />
-        <figcaption><b><a href="https://scholar.google.com.sg/citations?user=3A_h6-sAAAAJ&hl=en">Wu Yuan</a></b><br>CUHK</figcaption>
+        <img src="assets/img/organizers/stellayu.jpg" width="200" />
+        <figcaption><b><a href="https://web.eecs.umich.edu/~stellayu/">Stella X. Yu</a></b><br>University of Michigan</figcaption>
         </figure>
     </div>
     <div class="gridorg-item">
         <figure>
-        <img src="assets/img/organizers/honghai_liu.png" width="200" />
-        <figcaption><b><a href="https://www.port.ac.uk/about-us/structure-and-governance/our-people/our-staff/honghai-liu">Honghai Liu</a></b><br>University of Portsmouth</figcaption>
+        <img src="assets/img/organizers/macschwager.png" width="200" />
+        <figcaption><b><a href="https://profiles.stanford.edu/steven-collins">Mac Schwager</a></b><br>Stanford University</figcaption>
         </figure>
     </div>
     <div class="gridorg-item">
         <figure>
-        <img src="assets/img/organizers/steve_collins.jpg" width="200" />
-        <figcaption><b><a href="https://profiles.stanford.edu/steven-collins">Steven Collins</a></b><br>Stanford University</figcaption>
-        </figure>
-    </div>
-    <div class="gridorg-item">
-        <figure>
-        <img src="assets/img/organizers/mac_schwager.jpg" width="200" />
-        <figcaption><b><a href="https://web.stanford.edu/~schwager/">Mac Schwager</a></b><br>Stanford University</figcaption>
-        </figure>
-    </div>
-    <div class="gridorg-item">
-        <figure>
-        <img src="assets/img/organizers/benny_lo.jpg" width="200" />
-        <figcaption><b><a href="https://www.imperial.ac.uk/people/benny.lo">Benny Lo</a></b><br>Imperial College London</figcaption>
+        <img src="assets/img/organizers/anirudhamajumdar.jpeg" width="200" />
+        <figcaption><b><a href="https://irom-lab.princeton.edu/majumdar/">Anirudha Majumdar</a></b><br>Princeton University</figcaption>
         </figure>
     </div>
 </div>
 
 ### Scientific Advisory Board
 &nbsp;
-<div class="grid">
+<!-- <div class="grid">
     <div class="gridorg-item">
         <figure>
         <img src="assets/img/advisory_board/lei_xing.jpg" width="200"/>
@@ -314,13 +322,13 @@ If you have any questions, please contact us at: wearable-intelligence@googlegro
         <figcaption><b><a href="https://biodesign.seas.harvard.edu/conor-walsh">Conor Walsh</a></b><br>Harvard University</figcaption>
         </figure>
     </div>
-</div>
+</div> -->
 &nbsp;
 
 ### Program Committee
 &nbsp;
 
-<div class='grid'>
+<!-- <div class='grid'>
     <div class="gridcom-item">
         <div><p><span>&#8226;&nbsp;</span><a href="https://zipingxu.github.io/">Ziping Xu</a> (Harvard)</p></div>
         <div><p><span>&#8226;&nbsp;</span><a href="https://schmidtsciencefellows.org/fellow/asim-gazi/">Asim Gazi</a> (Harvard)</p></div>
@@ -344,29 +352,16 @@ If you have any questions, please contact us at: wearable-intelligence@googlegro
         <div><p><span>&#8226;&nbsp;</span><a href="https://scholar.google.com/citations?user=rHHZrQEAAAAJ&hl=zh-CN">Bo Xiao</a> (Imperial)</p></div>
         <div><p><span>&#8226;&nbsp;</span><a href="https://scholar.google.com/citations?user=WFxAYYQAAAAJ&hl=en">Lei Lu</a> (KCL)</p></div>
     </div>
-</div>
+</div> -->
 
 
 ### Sponsors
 &nbsp;
 
-<div class="grid">
+<!-- <div class="grid">
     <div class="gridorg-item">
         <figure>
         <a href="https://www.intel.com/"><img src="assets/img/sponsors/Intel_logo_2023.png" width="200"/></a>
-        <!-- <figcaption><b><a href="https://www.intel.com/">Intel</a></b><br></figcaption> -->
         </figure>
     </div>
-    <div class="gridorg-item">
-        <figure>
-        <a href="https://gdp.rjmart.cn"><img src="assets/img/sponsors/keyun_sponsor.jpg" width="200"/></a>
-        <!-- <figcaption><b><a href="https://gdp.rjmart.cn">Guangzhou Coloring Technology Co., Ltd.</a></b><br></figcaption> -->
-        </figure>
-    </div>
-    <div class="gridorg-item">
-        <figure>
-        <a href="https://spj.science.org/journal/cbsystems"><img src="assets/img/sponsors/cbs_logo.jpg" width="1000"/></a>
-        <!-- <figcaption><b><a href="https://gdp.rjmart.cn">Guangzhou Coloring Technology Co., Ltd.</a></b><br></figcaption> -->
-        </figure>
-    </div>
-</div>
+</div> -->
