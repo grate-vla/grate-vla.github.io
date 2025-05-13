@@ -202,23 +202,33 @@ span.award-other img {
 
 .video-row {
   display: flex;
-  width: 100vw;
+  /* width: 100vw; */
+  width: 100%;
   /* Ensures the container spans the full viewport width */
   overflow: hidden;
   /* Prevents horizontal scrolling */
 }
 
 .video-row video {
-  width: 33.3333vw;
+  /* width: 33.3333vw; */
+  width: 30%;
   /* Each video takes up one-third of the viewport width */
   height: auto;
   /* Maintains aspect ratio */
   object-fit: cover;
   /* Ensures the video covers its container */
+  margin: 40px;
 }
 
 .title-venue {
   background-position: left center;
-  background-image: "assets/img/utilities/plain_background.png";
+  background-image: url("../img/utilities/plain_background.png");
   background-size: cover;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding-left: 45%;
+  padding-right: 45%;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin-bottom: 20px;
 }
