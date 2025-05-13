@@ -38,7 +38,36 @@ hallucinations for robustness to distractors.
 - Encourage research on runtime performance prediction of VLA policies for safety guarantees
 and promote research on safety verification of VLA policies using formal methods.
 
-![](assets/img/banner.jpg)
+<div class="columns is-centered">
+    <div class="column">
+        <div class="content">        
+        <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="assets/img/openvla--cover_white_bowl_with_towel.mp4"
+                    type="video/mp4">
+        </video>
+        </div>
+    </div>
+    <div class="column">
+        <div class="columns is-centered">
+        <div class="column content">
+            <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="assets/img/openvla--pour_corn.mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="columns is-centered">
+        <div class="column content">
+            <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="assets/img/openvla--put_carrot.mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+        </div>
+    </div>
+</div>
 
 The Generalizable Real-World Robot Manipulation Policies Across Tasks and Environ-
 ments Challenge (GRATE-VLA) invites researchers to develop generalist robot policies that work

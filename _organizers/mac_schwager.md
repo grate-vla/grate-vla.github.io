@@ -14,7 +14,7 @@ affil: Stanford University
 affil_link:
 
 # An image of the organizer (square aspect ratio works the best) (place in the `assets/img/organizers` directory)
-img: mac_schwager.jpg
+img: macschwager.png
 
 # # Secondary affiliation
 # affil2: BuzzFizz Corp
