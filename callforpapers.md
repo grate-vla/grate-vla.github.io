@@ -41,7 +41,10 @@ centered on failure scenarios.
 
 - **Submission portal**: TBD
 
-We expect submissions with 2 - 8 pages for the main content, with no limit on references/appendices. Submissions are suggested to use the [CoRL template](https://drive.google.com/file/d/1XalwYG542cg2YAHo8STgZKxhAIA8_HSu/view). All papers will be peer-reviewed in a double-blind manner. We welcome both unpublished original contributions and recently published relevant works. Accepted papers will be presented in the form of posters, with several papers being selected for spotlight sessions. The <b><font color=red>Best Presentation Award</font></b> and <b><font color=red>Best Poster Award</font></b> will be presented to honor exceptional contributions among the accepted submissions.
+
+We expect submissions with 2 - 8 pages for the main content, with no limit on references/appendices. Submissions are suggested to use the [CoRL template](https://drive.google.com/file/d/1XalwYG542cg2YAHo8STgZKxhAIA8_HSu/view). All papers will be peer-reviewed in a double-blind manner. In particular, we encourage submission of preliminary and on-going research. 
+Accepted papers will be presented during a poster session at the workshop. 
+The <b><font color=red>Best Paper Award</font></b> and <b><font color=red>Best Poster Award</font></b> will be presented to honor outstanding contributions.
 
 **Contact**
 
