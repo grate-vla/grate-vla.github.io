@@ -39,17 +39,17 @@ hallucinations for robustness to distractors.
 and promote research on safety verification of VLA policies using formal methods.
 
 <div class="columns is-centered">
-  <div class="column has-text-centered">
+  <div class="column is-one-third has-text-centered">
     <video autoplay controls muted loop playsinline style="max-width: 100%;">
       <source src="assets/img/openvla--cover_white_bowl_with_towel.mp4" type="video/mp4">
     </video>
   </div>
-  <div class="column has-text-centered">
+  <div class="column is-one-third has-text-centered">
     <video autoplay controls muted loop playsinline style="max-width: 100%;">
       <source src="assets/img/openvla--pour_corn.mp4" type="video/mp4">
     </video>
   </div>
-  <div class="column has-text-centered">
+  <div class="column is-one-third has-text-centered">
     <video autoplay controls muted loop playsinline style="max-width: 100%;">
       <source src="assets/img/openvla--put_carrot.mp4" type="video/mp4">
     </video>
