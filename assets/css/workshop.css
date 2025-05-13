@@ -2,8 +2,7 @@ div.speaker {
   margin: 2em 0;
 }
 
-div.speaker
-div.speaker-pic {
+div.speaker div.speaker-pic {
   text-align: center;
 }
 
@@ -33,22 +32,26 @@ div.speaker p.speaker-bio {
   font-weight: 100;
   font-size: 11px;
 }
+
 @media (max-width:1000px) {
-    div.speaker img.people-pic {
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .people-pic {
-        max-width: 65px;
-        max-height: 65px;
-    }
-    .people-name {
-        font-size: 13px;
-        line-height: 18px;
-    }
-    .people-name h6 {
-        font-size: 9px;
-    }
+  div.speaker img.people-pic {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .people-pic {
+    max-width: 65px;
+    max-height: 65px;
+  }
+
+  .people-name {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .people-name h6 {
+    font-size: 9px;
+  }
 }
 
 .paper-pic {
@@ -58,36 +61,43 @@ div.speaker p.speaker-bio {
 }
 
 div.award {
-    padding: 15px 0px 15px 25px;
+  padding: 15px 0px 15px 25px;
 }
+
 div.award h3 {
-    font-size: 15px;
+  font-size: 15px;
 }
+
 span.award-sponsor {
-    color: #666;
-    font-size: 13px;
+  color: #666;
+  font-size: 13px;
 }
-span.award-sponsor a ,
+
+span.award-sponsor a,
 span.award-other a {
-    text-decoration: none;
-    border: 0;
+  text-decoration: none;
+  border: 0;
 }
+
 span.award-sponsor img {
-    height: 18px;
-    margin: 0 5px;
+  height: 18px;
+  margin: 0 5px;
 }
+
 div.award:last-child {
-    padding-top: 30px;
+  padding-top: 30px;
 }
+
 span.award-other img {
-    height: 18px;
-    margin-top: 2px;
-    vertical-align: top;
+  height: 18px;
+  margin-top: 2px;
+  vertical-align: top;
 }
 
 .table.schedule tr.noline td {
   border-top: none;
 }
+
 .table.schedule tr td {
   padding-top: 0;
   padding-bottom: 8px;
@@ -100,18 +110,18 @@ span.award-other img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .grid-item {
   min-width: 200px;
   max-width: 200px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 200px;
-          flex: 1 1 200px;
+  -ms-flex: 1 1 200px;
+  flex: 1 1 200px;
   padding-left: .5rem;
   padding-right: .5rem;
   margin-bottom: 1rem;
@@ -127,6 +137,7 @@ span.award-other img {
   display: block;
   max-width: 100%;
 }
+
 .grid-item figcaption {
   display: block;
   padding: .625rem .5rem;
@@ -137,8 +148,8 @@ span.award-other img {
   min-width: 160px;
   max-width: 160px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 160px;
-          flex: 1 1 160px;
+  -ms-flex: 1 1 160px;
+  flex: 1 1 160px;
   padding-left: .5rem;
   padding-right: .5rem;
   margin-bottom: 1rem;
@@ -154,6 +165,7 @@ span.award-other img {
   display: block;
   max-width: 100%;
 }
+
 .gridorg-item figcaption {
   display: block;
   padding: .625rem .5rem;
@@ -164,8 +176,8 @@ span.award-other img {
   min-width: 33%;
   max-width: 33%;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 33%;
-          flex: 1 1 33%;
+  -ms-flex: 1 1 33%;
+  flex: 1 1 33%;
   padding-left: .5rem;
   padding-right: .5rem;
   margin-bottom: 1rem;
@@ -181,6 +193,7 @@ span.award-other img {
   display: block;
   max-width: 100%;
 }
+
 .gridcom-item figcaption {
   display: block;
   padding: .625rem .5rem;
@@ -189,12 +202,23 @@ span.award-other img {
 
 .video-row {
   display: flex;
-  width: 100vw; /* Ensures the container spans the full viewport width */
-  overflow: hidden; /* Prevents horizontal scrolling */
+  width: 100vw;
+  /* Ensures the container spans the full viewport width */
+  overflow: hidden;
+  /* Prevents horizontal scrolling */
 }
 
 .video-row video {
-  width: 33.3333vw; /* Each video takes up one-third of the viewport width */
-  height: auto; /* Maintains aspect ratio */
-  object-fit: cover; /* Ensures the video covers its container */
+  width: 33.3333vw;
+  /* Each video takes up one-third of the viewport width */
+  height: auto;
+  /* Maintains aspect ratio */
+  object-fit: cover;
+  /* Ensures the video covers its container */
+}
+
+.title-venue {
+  background-position: left center;
+  background-image: "assets/img/utilities/plain_background.png";
+  background-size: cover;
 }

@@ -7,28 +7,54 @@ title: "GRATE-VLA Challenge: Safe Real-World Generalization for Generalist Robot
 list_title: Home
 layout: home
 ---
-<p style="text-align: center;"><font size="3"><em>Achieving Generalization via Predictive Redteaming and World Model Grounding</em>
-</font></p>
-<p style="text-align: center;"><font size="5"><a href="https://www.corl.org/">2025 Conference on Robot Learning in Seoul, South Korea</a>
-</font></p>
-<p style="text-align: center;"><font size="5">September 30, 2025. Location: <a href="https://maps.app.goo.gl/dHWrPx9CABdTPmyi8">COEX Convention & Exhibition Center</a></font></p>
-<!-- <p style="text-align: center;"><font size="5">Location: Sequoia 1</font></p> -->
-<p style="text-align: center;"><font size="4">
-<!-- [<a href="">Youtube</a>] -->[<a href="">Discord</a>] [<a href="">OpenReview</a>]</font></p>
-<!-- <p style="text-align: center;"><font size="4">Recording available at: <a href="">Youtube</a></font></p> -->
 
-Inspired by the significant potential offered by a single policy for many robot manipulation tasks, research on vision-language-action (VLA) models as generalist robot policies has
+<div class="title-venue">
+    <h1 class="page-heading" align="center"><p style="font-size: 1.3em">GRATE-VLA Challenge: Safe Real-World Generalization for Generalist Robot Manipulation Policies</p></h1>
+    <p style="text-align: center;"><font size="3"><em>Achieving Generalization via Predictive Redteaming and World Model Grounding</em>
+    </font></p>
+    <p style="text-align: center;"><font size="5"><a href="https://www.corl.org/">2025 Conference on Robot Learning in Seoul, South Korea</a>
+    </font></p>
+    <p style="text-align: center;"><font size="5">September 30, 2025. Location: <a href="https://maps.app.goo.gl/dHWrPx9CABdTPmyi8">COEX Convention & Exhibition Center</a></font></p>
+    <!-- <p style="text-align: center;"><font size="5">Location: Sequoia 1</font></p> -->
+    <p style="text-align: center;"><font size="4">
+    <!-- [<a href="">Youtube</a>] -->[<a href="">Discord</a>] [<a href="">OpenReview</a>]</font></p>
+    <!-- <p style="text-align: center;"><font size="4">Recording available at: <a href="">Youtube</a></font></p> -->
+</div>
+
+Research on vision-language-action (VLA) models as generalist robot policies has
 exploded over the last few years, achieving remarkable performance across a wide
 range of robot manipulation tasks described in natural-language. Despite their notable performance in
 nominal conditions, VLA policies have been shown to be notably fragile, showing weak robustness to
 distractors (e.g., objects, lighting, and backgrounds) and poor generalization to robot embodiments
-and some manipulation tasks.
+and some manipulation tasks. For example, we show some failure videos from state-of-the-art opens-source VLAs 
+Octo and OpenVLA:
+
+<div class="video-row">
+  <video autoplay controls muted loop playsinline, width="80%">
+    <source src="assets/img/openvla--put_carrot.mp4" type="video/mp4">
+  </video>
+  <video autoplay controls muted loop playsinline, width="80%">
+    <source src="assets/img/octo--move_corn_onto_plate.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div class="video-row">
+  <video autoplay controls muted loop playsinline, width="80%">
+    <source src="assets/img/openvla--cover_white_bowl_with_towel.mp4" type="video/mp4">
+  </video>
+  <video autoplay controls muted loop playsinline, width="80%">
+    <source src="assets/img/openvla--pour_corn.mp4" type="video/mp4">
+  </video>
+</div>
+
+
 However, robustness and generalization to real-world conditions remain essential to moving the
 deployment of robots from controlled lab settings to the real-world (lab-to-real). This challenge aims
 to bring together the robot manipulation research community to address these fundamental issues in
 three research directions. This challenge seeks to:
 - Promote research on predictive redteaming to enable stable fine-tuning of VLA policies,
-through the: (i) identification of interesting failure scenarios, (ii) targeted collection of fine-tuning data, and (iii) optimization of data-mix ratios during fine-tuning to avoid catastrophic
+through the: (i) identification of interesting failure scenarios, (ii) targeted collection of fine-tuning data, 
+and (iii) optimization of data-mix ratios during fine-tuning to avoid catastrophic
 forgetting. Fine-tuning VLA policies with supervision on failure cases can improve their
 generalization beyond the training distribution.
 - Motivate research on grounding VLA policies in the real-world at runtime with world
@@ -49,6 +75,7 @@ and promote research on safety verification of VLA policies using formal methods
   </video>
 </div>
 
+### Challenge
 The Generalizable Real-World Robot Manipulation Policies Across Tasks and Environments Challenge (GRATE-VLA) invites researchers to develop generalist robot policies that work
 in real-world manipulation problems, and by design, requires these policies to be generalizable
 and robust to the uncontrolled conditions in the real-world. Specifically, we evaluate real-world
@@ -82,6 +109,7 @@ unaffiliated with any industry partner. In addition, the challenge will present 
 that innovate on the three research directions of this challenge.
 
 More details about the challenge will be presented at a later date.
+
 
 &nbsp;
 &nbsp;
@@ -202,12 +230,12 @@ If you have any questions, please contact us at: TBD.
 
 
 <div class="grid">
-    <div class="gridorg-item">
+    <!-- <div class="gridorg-item">
         <figure>
         <img src="assets/img/organizers/olashorinwa.jpg" width="200" /> 
         <figcaption><b><a href="">Ola Shorinwa</a></b><br>Princeton University</figcaption>
         </figure>
-    </div>
+    </div> -->
     <div class="gridorg-item">
         <figure>
         <img src="assets/img/organizers/jiankai_sun.png" width="200"/>
@@ -224,12 +252,6 @@ If you have any questions, please contact us at: TBD.
         <figure>
         <img src="assets/img/organizers/yanxu.png" width="200" />
         <figcaption><b><a href="https://decayale.github.io/">Yan Xu</a></b><br>University of Michigan</figcaption>
-        </figure>
-    </div>
-    <div class="gridorg-item">
-        <figure>
-        <img src="assets/img/organizers/paulzhou.png" width="200" />
-        <figcaption><b><a href="https://zhouzypaul.github.io/">Paul Zhou</a></b><br>UC Berkeley</figcaption>
         </figure>
     </div>
     <div class="gridorg-item">
@@ -258,8 +280,8 @@ If you have any questions, please contact us at: TBD.
     </div>
 </div>
 
-### Scientific Advisory Board
-&nbsp;
+<!-- ### Scientific Advisory Board
+&nbsp; -->
 <!-- <div class="grid">
     <div class="gridorg-item">
         <figure>
@@ -346,9 +368,10 @@ If you have any questions, please contact us at: TBD.
         </figure>
     </div>
 </div> -->
-&nbsp;
+<!-- &nbsp; -->
 
 ### Program Committee
+The program committee will be announced soon.
 &nbsp;
 
 <!-- <div class='grid'>
@@ -380,6 +403,7 @@ If you have any questions, please contact us at: TBD.
 
 ### Sponsors
 &nbsp;
+Information on sponsors will be posted soon.
 
 <!-- <div class="grid">
     <div class="gridorg-item">

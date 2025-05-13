@@ -4,8 +4,8 @@ title: Organizers
 permalink: /organizers/
 ---
 
-### Scientific Advisory Board
-&nbsp;
+<!-- ### Scientific Advisory Board
+&nbsp; -->
 <!-- <div class="grid">
     <div class="gridorg-item">
         <figure>
@@ -92,10 +92,10 @@ permalink: /organizers/
         </figure>
     </div>
 </div> -->
-&nbsp;
+<!-- &nbsp;
 
 ### Program Committee
-&nbsp;
+&nbsp; -->
 
 <!-- <div class='grid'>
     <div class="gridcom-item">
