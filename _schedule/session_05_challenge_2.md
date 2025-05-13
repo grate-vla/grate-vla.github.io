@@ -3,7 +3,7 @@
 sequence_id: 5
 
 # Speaker name
-# speaker: Zijian Wang
+# speaker: Organizers
 
 # Title of the event
 wide_title: "Challenge Winner Talks: Methods and Insights (Top-Performing Teams)"

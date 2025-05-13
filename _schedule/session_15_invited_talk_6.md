@@ -3,7 +3,7 @@
 sequence_id: 15
 
 # Speaker name
-# speaker: Yimin Zhang
+# speaker: Organizers
 
 # Title of the event
 wide_title: Industry Talk (VLA-World Models, Humanoid Robotics)

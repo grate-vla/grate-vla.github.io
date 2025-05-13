@@ -3,7 +3,7 @@
 sequence_id: 3
 
 # Speaker name
-# speaker: Jasmin E. Palmer
+# speaker: Organizers
 
 # Title of the event
 wide_title: Coffee Break and Poster Session

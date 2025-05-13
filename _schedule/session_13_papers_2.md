@@ -3,7 +3,7 @@
 sequence_id: 13
 
 # Speaker name
-# speaker: Shuo Jiang
+# speaker: Organizers
 
 # Title of the event
 wide_title: "Oral Presentations: Best Paper Submission (Runner-Up)"

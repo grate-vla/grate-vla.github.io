@@ -3,7 +3,7 @@
 sequence_id: 10
 
 # Speaker name
-speaker: Sergey Levine, Dhruv Shah, Huihan Liu, Andrea Bajcsy, Tiffany Cai
+speaker: Sergey Levine, Dhruv Shah, Huihan Liu, Andrea Bajcsy
 
 # Title of the event
 title: "Panel Discussion (Scaling Laws for VLAs)"

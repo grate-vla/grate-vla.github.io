@@ -3,7 +3,7 @@
 sequence_id: 12
 
 # Speaker name
-# speaker: George Mylonas
+# speaker: Organizers
 
 # Title of the event
 wide_title: Coffee Break and Poster Session

@@ -3,7 +3,7 @@
 sequence_id: 6
 
 # Speaker name
-# speaker: Ruohan Zhang
+# speaker: Organizers
 
 # Title of the event
 wide_title: "Oral Presentations: Best Paper Submission"
