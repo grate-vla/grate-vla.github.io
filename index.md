@@ -30,21 +30,18 @@ and some manipulation tasks. For example, we show some failure videos from state
 Octo and OpenVLA:
 
 <div class="video-row">
-  <video autoplay controls muted loop playsinline, width="80%">
-    <source src="assets/img/openvla--put_carrot.mp4" type="video/mp4">
-  </video>
-  <video autoplay controls muted loop playsinline, width="80%">
+  <video autoplay controls muted loop playsinline>
     <source src="assets/img/octo--move_corn_onto_plate.mp4" type="video/mp4">
   </video>
-</div>
-
-<div class="video-row">
-  <video autoplay controls muted loop playsinline, width="80%">
-    <source src="assets/img/openvla--cover_white_bowl_with_towel.mp4" type="video/mp4">
-  </video>
-  <video autoplay controls muted loop playsinline, width="80%">
+  <video autoplay controls muted loop playsinline>
     <source src="assets/img/openvla--pour_corn.mp4" type="video/mp4">
   </video>
+  <video autoplay controls muted loop playsinline>
+    <source src="assets/img/openvla--put_carrot.mp4" type="video/mp4">
+  </video>
+  <!-- <video autoplay controls muted loop playsinline, width="80%">
+    <source src="assets/img/openvla--cover_white_bowl_with_towel.mp4" type="video/mp4">
+  </video> -->
 </div>
 
 
@@ -63,17 +60,6 @@ hallucinations for robustness to distractors.
 - Encourage research on runtime performance prediction of VLA policies for safety guarantees
 and promote research on safety verification of VLA policies using formal methods.
 
-<div class="video-row">
-  <video autoplay controls muted loop playsinline>
-    <source src="assets/img/openvla--cover_white_bowl_with_towel.mp4" type="video/mp4">
-  </video>
-  <video autoplay controls muted loop playsinline>
-    <source src="assets/img/openvla--pour_corn.mp4" type="video/mp4">
-  </video>
-  <video autoplay controls muted loop playsinline>
-    <source src="assets/img/openvla--put_carrot.mp4" type="video/mp4">
-  </video>
-</div>
 
 ### Challenge
 The Generalizable Real-World Robot Manipulation Policies Across Tasks and Environments Challenge (GRATE-VLA) invites researchers to develop generalist robot policies that work
