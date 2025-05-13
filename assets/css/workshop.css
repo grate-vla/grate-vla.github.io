@@ -187,13 +187,6 @@ span.award-other img {
   /* background: #ffffff; */
 }
 
-
-.video-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem; /* Optional: adds space between videos */
-}
-
 .video-row {
   display: flex;
   width: 100vw; /* Ensures the container spans the full viewport width */
