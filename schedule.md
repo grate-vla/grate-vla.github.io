@@ -4,4 +4,4 @@ title: Schedule
 permalink: /schedule/
 ---
 
-Under Construction
+Put Zoom Link Here

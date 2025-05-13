@@ -1,20 +1,20 @@
 ---
 
-sequence_id: 10
+sequence_id: 6
 
 # Name of the organizer
-name: Benny Lo
+name: Timothy Chen
 
 # Link to the organizer's webpage
-webpage: https://www.imperial.ac.uk/people/benny.lo
+webpage: https://msl.stanford.edu/people/timchen
 
 # Primary affiliation
-affil: Imperial College London
+affil: Stanford University
 # Link to the primary affiliation
-affil_link: https://www.imperial.ac.uk/people/benny.lo
+affil_link:
 
 # An image of the organizer (square aspect ratio works the best) (place in the `assets/img/organizers` directory)
-img: benny_lo.jpg
+img: timothychen.jpg
 
 # # Secondary affiliation
 # affil2: BuzzFizz Corp

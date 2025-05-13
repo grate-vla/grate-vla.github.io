@@ -1,20 +1,20 @@
 ---
 
-sequence_id: 3
+sequence_id: 7
 
 # Name of the organizer
-name: Yiyue Luo
+name: Stella X. Yu
 
 # Link to the organizer's webpage
-webpage: https://yyueluo.com/
+webpage: https://web.eecs.umich.edu/~stellayu/
 
 # Primary affiliation
-affil: MIT
+affil: University of Michigan
 # Link to the primary affiliation
-affil_link: https://yyueluo.com/
+affil_link:
 
 # An image of the organizer (square aspect ratio works the best) (place in the `assets/img/organizers` directory)
-img: yiyue_luo.jpg
+img: stellayu.jpg
 
 # # Secondary affiliation
 # affil2: BuzzFizz Corp

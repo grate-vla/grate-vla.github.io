@@ -9,7 +9,7 @@ layout: home
 ---
 <p style="text-align: center;"><font size="3"><em>Achieving Generalization via Predictive Redteaming and World Model Grounding</em>
 </font></p>
-<p style="text-align: center;"><font size="5"><a href="https://2024.ieee-icra.org/">2025 Conference on Robot Learning in Seoul, South Korea</a>
+<p style="text-align: center;"><font size="5"><a href="https://www.corl.org/">2025 Conference on Robot Learning in Seoul, South Korea</a>
 </font></p>
 <p style="text-align: center;"><font size="5">September 30, 2025. Location: <a href="https://maps.app.goo.gl/dHWrPx9CABdTPmyi8">COEX Convention & Exhibition Center</a></font></p>
 <!-- <p style="text-align: center;"><font size="5">Location: Sequoia 1</font></p> -->
@@ -17,13 +17,12 @@ layout: home
 <!-- [<a href="">Youtube</a>] -->[<a href="">Discord</a>] [<a href="">OpenReview</a>]</font></p>
 <!-- <p style="text-align: center;"><font size="4">Recording available at: <a href="">Youtube</a></font></p> -->
 
-Inspired by the significant potential offered by a single policy for many robot ma-
-nipulation tasks, research on vision-language-action (VLA) models as generalist robot policies has
-exploded over the last few years [ 1, 2, 3, 4 , 5 , 6], achieving remarkable performance across a wide
+Inspired by the significant potential offered by a single policy for many robot manipulation tasks, research on vision-language-action (VLA) models as generalist robot policies has
+exploded over the last few years, achieving remarkable performance across a wide
 range of robot manipulation tasks described in natural-language. Despite their notable performance in
 nominal conditions, VLA policies have been shown to be notably fragile, showing weak robustness to
-distractors (e.g., objects, lighting, and backgrounds) [ 7] and poor generalization to robot embodiments
-and some manipulation tasks [8, 9].
+distractors (e.g., objects, lighting, and backgrounds) and poor generalization to robot embodiments
+and some manipulation tasks.
 However, robustness and generalization to real-world conditions remain essential to moving the
 deployment of robots from controlled lab settings to the real-world (lab-to-real). This challenge aims
 to bring together the robot manipulation research community to address these fundamental issues in
@@ -65,13 +64,12 @@ in the second stage are required to submit their policy for evaluation in real-t
 The top participants in this round will give a brief talk on architecture design choices and key insights
 at the workshop.
 
-The winners of the challenge in each track will receive suitable awards, acknowledging their achieve-
-ments. Winners in the overall track will receive the following prizes:
-• First Place: $1000
-• Second Place: $750
-• Third Place: $500
-All top-ranked participants will receive API credits for use with world models, and VLMs from spon-
-sors. The challenge will recognize the best student (academic) submissions, limited to submissions
+The winners of the challenge in each track will receive suitable awards, acknowledging their achievements. Winners in the overall track will receive the following prizes:
+- First Place: $1000
+- Second Place: $750
+- Third Place: $500
+
+All top-ranked participants will receive API credits for use with world models, and VLMs from sponsors. The challenge will recognize the best student (academic) submissions, limited to submissions
 unaffiliated with any industry partner. In addition, the challenge will present awards to submissions
 that innovate on the three research directions of this challenge.
 
@@ -101,8 +99,7 @@ resources, by allowing for the use of open-source training data, and open-source
 for bootstrapping their submissions. In particular, we encourage submissions that:
 1. Provide simple interfaces for policy deployment with interpretable action proposals and
 performance predictions,
-2. Utilize open-source datasets and foundation models for training generalist robot manipula-
-tion policies,
+2. Utilize open-source datasets and foundation models for training generalist robot manipulation policies,
 3. Leverage predictive redteaming for target data collection and fine-tuning,
 4. Harness open-source world models for efficient data scaling and grouding, especially
 centered on failure scenarios.
@@ -146,6 +143,12 @@ If you have any questions, please contact us at: TBD.
     </div>
     <div class="grid-item">
         <figure>
+        <img src="assets/img/speakers/shuangli.JPG" width="200" /> 
+        <figcaption><b><a href="https://shuangli59.github.io/">Shuang Li</a></b><br>Stanford</figcaption>
+        </figure>
+    </div>
+    <div class="grid-item">
+        <figure>
         <img src="assets/img/speakers/huihanliu.png" width="200" />
         <figcaption><b><a href="https://huihanl.github.io/">Huihan Liu</a></b><br>UT Austin</figcaption>
         </figure>
@@ -167,6 +170,18 @@ If you have any questions, please contact us at: TBD.
         <figure>
         <img src="assets/img/speakers/russtedrake.jpg" width="200" />
         <figcaption><b><a href="https://locomotion.csail.mit.edu/russt.html">Russ Tedrake</a></b><br>MIT & TRI</figcaption>
+        </figure>
+    </div>
+    <div class="grid-item">
+        <figure>
+        <img src="assets/img/speakers/chuchufan.jpg" width="200" />
+        <figcaption><b><a href="https://chuchu.mit.edu/">Chuchu Fan</a></b><br>MIT</figcaption>
+        </figure>
+    </div>
+    <div class="grid-item">
+        <figure>
+        <img src="" width="200" />
+        <figcaption><b><a href="">Tiffany Cai</a></b><br>Nvidia</figcaption>
         </figure>
     </div>
 </div>
@@ -229,7 +244,7 @@ If you have any questions, please contact us at: TBD.
     </div>
     <div class="gridorg-item">
         <figure>
-        <img src="assets/img/organizers/anirudhamajumdar.jpeg" width="200" />
+        <img src="assets/img/organizers/anirudhamajumdar.jpg" width="200" />
         <figcaption><b><a href="https://irom-lab.princeton.edu/majumdar/">Anirudha Majumdar</a></b><br>Princeton University</figcaption>
         </figure>
     </div>

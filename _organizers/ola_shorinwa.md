@@ -1,20 +1,20 @@
 ---
 
-sequence_id: 2
+sequence_id: 1
 
 # Name of the organizer
-name: Xiao Gu
+name: Ola Shorinwa
 
 # Link to the organizer's webpage
-webpage: https://xiaogu.site/
+webpage: 
 
 # Primary affiliation
-affil: University of Oxford
+affil: Princeton University
 # Link to the primary affiliation
-affil_link: https://eng.ox.ac.uk/people/xiao-gu/
+affil_link:
 
 # An image of the organizer (square aspect ratio works the best) (place in the `assets/img/organizers` directory)
-img: xiao_gu.jpg
+img: olashorinwa.png
 
 # # Secondary affiliation
 # affil2: BuzzFizz Corp

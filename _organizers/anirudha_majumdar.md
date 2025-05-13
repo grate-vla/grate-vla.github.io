@@ -1,20 +1,20 @@
 ---
 
-sequence_id: 8
+sequence_id: 9
 
 # Name of the organizer
-name: Steven Collins
+name: Anirudha Majumdar
 
 # Link to the organizer's webpage
-webpage: https://profiles.stanford.edu/steven-collins
+webpage: https://irom-lab.princeton.edu/majumdar/
 
 # Primary affiliation
-affil: Stanford University
+affil: Princeton University
 # Link to the primary affiliation
-affil_link: https://profiles.stanford.edu/steven-collins
+affil_link:
 
 # An image of the organizer (square aspect ratio works the best) (place in the `assets/img/organizers` directory)
-img: steve_collins.jpg
+img: anirudhamajumdar.jpg
 
 # # Secondary affiliation
 # affil2: BuzzFizz Corp

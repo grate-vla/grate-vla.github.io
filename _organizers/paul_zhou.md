@@ -3,18 +3,18 @@
 sequence_id: 5
 
 # Name of the organizer
-name: Shuo Jiang
+name: Paul Zhou
 
 # Link to the organizer's webpage
-webpage: https://scholar.google.com/citations?user=zcpunN8AAAAJ&hl=en
+webpage: https://zhouzypaul.github.io/
 
 # Primary affiliation
-affil: Tongji University
+affil: UC Berkeley
 # Link to the primary affiliation
-affil_link: https://scholar.google.com/citations?user=zcpunN8AAAAJ&hl=en
+affil_link:
 
 # An image of the organizer (square aspect ratio works the best) (place in the `assets/img/organizers` directory)
-img: shuo_jiang.jpg
+img: paulzhou.png
 
 # # Secondary affiliation
 # affil2: BuzzFizz Corp
