@@ -10,7 +10,7 @@ layout: home
 
 <div class="title-venue">
     <h1 class="page-heading" align="center"><p style="font-size: 1.3em">GRATE-VLA Challenge: Safe Real-World Generalization for Generalist Robot Manipulation Policies</p></h1>
-    <p style="text-align: center;"><font size="3"><em>Achieving Generalization via Predictive Redteaming and World Model Grounding</em>
+    <p style="text-align: center;"><font size="5"><em>Achieving Generalization via Predictive Redteaming and World Model Grounding</em>
     </font></p>
     <p style="text-align: center;"><font size="5"><a href="https://www.corl.org/">2025 Conference on Robot Learning in Seoul, South Korea</a>
     </font></p>
@@ -26,8 +26,8 @@ exploded over the last few years, achieving remarkable performance across a wide
 range of robot manipulation tasks described in natural-language. Despite their notable performance in
 nominal conditions, VLA policies have been shown to be notably fragile, showing weak robustness to
 distractors (e.g., objects, lighting, and backgrounds) and poor generalization to robot embodiments
-and some manipulation tasks. For example, we show some failure videos from state-of-the-art opens-source VLAs 
-Octo and OpenVLA:
+and some manipulation tasks, demonstrated by a few failure videos from state-of-the-art open-source VLAs 
+(Octo and OpenVLA):
 
 <div class="video-row">
   <video autoplay controls muted loop playsinline>
@@ -90,7 +90,7 @@ The winners of the challenge in each track will receive suitable awards, acknowl
 - Second Place: $750
 - Third Place: $500
 
-All top-ranked participants will receive API credits for use with world models, and VLMs from sponsors. The challenge will recognize the best student (academic) submissions, limited to submissions
+All top-ranked participants will receive API credits for use with world models, and VLMs from sponsors. The challenge will recognize the <b><font color=red>Best Student (Academic) Submission</font></b>, limited to submissions
 unaffiliated with any industry partner. In addition, the challenge will present awards to submissions
 that innovate on the three research directions of this challenge.
 
