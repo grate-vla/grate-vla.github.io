@@ -49,9 +49,6 @@ and promote research on safety verification of VLA policies using formal methods
   </video>
 </div>
 
-
-
-
 The Generalizable Real-World Robot Manipulation Policies Across Tasks and Environments Challenge (GRATE-VLA) invites researchers to develop generalist robot policies that work
 in real-world manipulation problems, and by design, requires these policies to be generalizable
 and robust to the uncontrolled conditions in the real-world. Specifically, we evaluate real-world
