@@ -188,3 +188,19 @@ span.award-other img {
 }
 
 
+.video-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem; /* Optional: adds space between videos */
+}
+
+.video-row video {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 600px) {
+  .video-row {
+    flex-direction: column;
+  }
+}
